@@ -1,4 +1,5 @@
-    let number1 = null;
+//  *********************************************   CONVERSIONS   ********************************************
+let number1 = null;
 
     /* null = 0
        abc = NaN          NaN = Not a Number
