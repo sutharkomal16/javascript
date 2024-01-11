@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white;">
+    <h1>KOMAL SUTHAR</h1>
+    <button id="stop">STOP</button>
+</body>
+<script>
+    const name1 = function(){console.log("komal suthar")}
+    const name2 = function(){
+        document.querySelector('h1').innerHTML="JavaScript"
+    }
+    const time = setTimeout(name2,3000)          // this take 5 seconds and give output => komal suthar
+    
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(time);
+        console.log("stopped")
+    })
+</script>
+</html>
