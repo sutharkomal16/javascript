@@ -78,6 +78,7 @@ function handleObject(anyobject){
 // // 2 Ways to execute objects through Funtions 1. direct funtion calling 2. By passsing values through object in function arguments
 
 // handleObject(user4)
+
 // handleObject({
 //     username:"komal",
 //     email:"komal133@gmail.com",
